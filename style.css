@@ -1,0 +1,98 @@
+:root {
+    --my_background: rgb(103, 127, 138);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+/* Set Background Color of webpage */
+body {
+    position: absolute;
+    width:auto;
+    background-color: black; 
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+content {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: rgb(62, 182, 68); */
+}
+
+content .row {
+    border: 3px dotted white;
+    padding: 10px;
+    background: black;
+    margin:20px;
+}
+
+content .row h3 {
+    font-size: 24px;
+    color: purple;
+    background: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+content .row p {
+    color: purple;
+}
+
+content .row .container {
+    margin-top: 10px;
+    background: purple;
+    border-radius: 10px;
+}
+
+content .row .container p {
+    color: white;
+}
+
+/**********************************************************/
+content .col {
+    border: 3px dotted white;
+    padding: 10px;
+    background: black;
+    margin:20px;
+}
+
+content .col h3 {
+    font-size: 24px;
+    color: purple;
+    background: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+content .col p {
+    color: purple;
+}
+
+content .col .container {
+    margin-top: 10px;
+    background: purple;
+    border-radius: 10px;
+}
+
+content .col .container p {
+    color: white;
+}
